@@ -1,0 +1,171 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html,body {
+	width: 100%;
+	text-decoration: none;
+	height: 100%;
+}
+
+body {
+	background-color: white;
+}
+
+header {
+	width: 100%;
+}
+
+.brand-name {
+	font-family: "Montserrat" !important;
+}
+
+.btn-outline-dark {
+	margin-right: 1rem;
+}
+
+@media screen and (max-width:992px) {
+	.reg_button_hdr {
+		margin-top: 0.8rem;
+	}
+}
+
+
+
+.container-fluid {
+	font-family: "Montserrat";
+}
+
+.w-100 {
+	width: 100%;
+	height:auto;
+	margin-top: 2rem;
+	min-width: 1320px;
+}
+
+.header_of_page {
+	padding-top:8rem;
+	font-size: 3.5rem;
+	text-align:center;
+	font-family: "Cormorant Garamond" !important;
+}
+
+.brand_name {
+	text-decoration: none;
+	font-family: "Amatic SC",cursive !important;
+	font-size: 2.5rem;
+}
+
+/*
+.col-lg-6{
+	font-family: Cormorant Garamond;
+	font-size: 1.5rem;
+}
+*/
+.header_of_page {
+		animation-name: apper;
+}
+
+.test {
+	visibility: visible;
+}
+
+.image_un_head {
+	width: 10rem;
+}
+
+
+.hdr_image {
+	font-family: "Montserrat" !important;
+	font-weight: 800;
+	color: white;
+	font-size: 3rem;
+	text-shadow: 2px 0px 18px #5C5C5C;
+}
+
+main {
+	background-color: white;
+	width: 100%;
+	margin-top: 10rem;
+	height: auto;
+}
+
+.reg_div {
+		background-color: #E0E6FA;
+		height: auto;
+		padding: 1rem;
+		font-family: "Montserrat" !important;
+		margin-top: 12rem;
+}
+
+.reg_form {
+	background-color:white;
+	padding: 1rem;
+	border-radius: 10px;
+	height: 30rem;
+}
+
+.reg_offer {
+	padding-top: 6rem;
+}
+
+footer {
+	background-color: #252525;
+	height: 10rem;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+}
+
+form {
+	font-family: "Montserrat" !important;
+}
+
+.article_about_us {
+	font-family: "Montserrat";
+}
+
+@media screen and (max-width:576px) {
+	.article_about_us {
+		font-size: 1.3rem;
+	}
+}
+
+@media screen and (min-width:1050px) {
+	.form-group {
+		width: 5rem;
+	}
+}
+
+::selection {
+	color: black;
+	background:#87B2FF;
+}
+
+/*Scroll bar styles*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #C8CCD4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5B7EF2;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5073E7;
+}
+
+/*End of scroll bar styles*/
